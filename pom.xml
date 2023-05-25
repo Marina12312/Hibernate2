@@ -35,7 +35,23 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+
+
+
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>5.4.32.Final</version>
+      </dependency>
+      <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.6.0</version>
+      </dependency>
+
+      <!-- другие зависимости -->
+    </dependencies>
+
   <build>
     <finalName>HibernateHWminiKursach</finalName>
     <plugins>
